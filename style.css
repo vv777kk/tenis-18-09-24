@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+
+}
+
+.circulos{
+    width: 10vw;
+    height: 20vh;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+form input{
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.5em;
+    border:solid 1px lightgray;
+}
+form button{
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    background-color: aqua;
+}
